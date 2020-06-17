@@ -84,10 +84,23 @@ body {
   }
 
   .mynav a{
-    color: red !important;
+    color: #fff !important;
     text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
   }
 
   .mynav a:hover{
-    color: #6aff00 !important;
+    color: #6ea3d8 !important;
+  }
+
+  .navbar-brand {
+    color: #97077d !important;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+  }
+
+  .navbar-brand .words{
+    color: #6ea3d8;
+    font-family: 'Piedra', cursive;
+    font-size: 20px;
   }
