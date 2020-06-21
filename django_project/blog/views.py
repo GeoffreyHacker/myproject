@@ -11,3 +11,7 @@ def home(request):
 
 def about(request):
     return render(request, 'blogs/about.html', {'title': 'About'})
+
+
+def service(request):
+    return render(request, 'blogs/service.html')

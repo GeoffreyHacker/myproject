@@ -38,6 +38,11 @@ body {
   
   .article-title {
     color: #444444;
+    font-family: 'Piedra', cursive;
+  }
+
+  .article-title p{
+    font-family: 'Acme', sans-serif;
   }
   
   a.article-title:hover {
@@ -104,3 +109,6 @@ body {
     font-family: 'Piedra', cursive;
     font-size: 20px;
   }
+
+
+ 
