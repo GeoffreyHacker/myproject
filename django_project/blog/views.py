@@ -3,10 +3,8 @@ from .models import Post
 
 
 def home(request):
-    context = {
-        'posts': Post.objects.all()
-    }
-    return render(request, 'blogs/home.html', context)
+    
+    return render(request, 'blogs/home.html')
 
 
 def about(request):
@@ -15,3 +13,9 @@ def about(request):
 
 def service(request):
     return render(request, 'blogs/service.html')
+
+def poems(request):
+    context = {
+        'posts': Post.objects.all()
+    }
+    return render(request, 'blogs/poem.html', context)

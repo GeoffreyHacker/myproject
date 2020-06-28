@@ -38,6 +38,11 @@ body {
   
   .article-title {
     color: #444444;
+    font-family: 'Piedra', cursive;
+  }
+
+  .article-title p{
+    font-family: 'Acme', sans-serif;
   }
   
   a.article-title:hover {
@@ -82,3 +87,29 @@ body {
   .account-heading {
     font-size: 2.5rem;
   }
+
+  .mynav a{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+  }
+
+  .mynav a:hover{
+    color: red !important;
+  }
+
+  .navbar-brand {
+    color: #90838e !important;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+  }
+
+  .navbar-brand .words{
+    color: #6ea3d8;
+    font-family: 'Piedra', cursive;
+    font-size: 20px;
+  }
+
+.navbar{
+  margin-bottom: 9px !important;
+}

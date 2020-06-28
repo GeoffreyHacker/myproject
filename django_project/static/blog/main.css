@@ -95,11 +95,11 @@ body {
   }
 
   .mynav a:hover{
-    color: #6ea3d8 !important;
+    color: red !important;
   }
 
   .navbar-brand {
-    color: #97077d !important;
+    color: #9e099e !important;
     font-family: 'Satisfy', cursive;
     font-size: 30px;
   }
@@ -110,5 +110,6 @@ body {
     font-size: 20px;
   }
 
-
- 
+.navbar{
+  margin-bottom: 9px !important;
+}
